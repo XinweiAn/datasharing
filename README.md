@@ -1,4 +1,4 @@
-How to share data with a statistician
+##How to share data with a statistician
 ===========
 
 This is a guide for anyone who needs to share data with a statistician. The target audiences I have in mind are:
@@ -20,7 +20,7 @@ before calling on a statistician. This can dramatically speed the turnaround tim
 have to work through all the pre-processing steps first. 
 
 
-What you should deliver to the statistician
+##What you should deliver to the statistician
 ====================
 
 For maximum speed in the analysis this is the information you should pass to a statistician:
@@ -85,10 +85,9 @@ should not have multiple worksheets, no macros should be applied to the data, an
 Alternatively share the data in a [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) or [TAB-delimited](http://en.wikipedia.org/wiki/Tab-separated_values) text file.
 
 
-### The code book
+### The Code Book
 
-For almost any data set, the measurements you calculate will need to be described in more detail than you will sneak
-into the spreadsheet. The code book contains this information. At minimum it should contain:
+For almost any data set, the measurements you calculate will need to be described in more detail than you will sneak into the spreadsheet. The Code Book contains this information. At minimum it should contain:
 
 1. Information about the variables (including units!) in the data set not contained in the tidy data 
 1. Information about the summary choices you made
@@ -129,7 +128,7 @@ throw away missing observations.
 
 In general, try to avoid coding categorical or ordinal variables as numbers. When you enter the value for sex in the tidy
 data, it should be "male" or "female". The ordinal values in the data set should be "poor", "fair", and "good" not 1, 2 ,3.
-This will avoid potential mixups about which direction effects go and will help identify coding errors. 
+This will avoid potential mix-ups about which direction effects go and will help identify coding errors. 
 
 Always encode every piece of information about your observations using text. For example, if you are storing data in Excel and use a form of colored text or cell background formatting to indicate information about an observation ("red variable entries were observed in experiment 1.") then this information will not be exported (and will be lost!) when the data is exported as raw text.  Every piece of data should be encoded as actual text that can be exported.  
 
@@ -159,7 +158,7 @@ to confirm that they can obtain the same output file you did.
 
 
 
-What you should expect from the analyst
+##What you should expect from the analyst
 ====================
 
 When you turn over a properly tidied data set it dramatically decreases the workload on the statistician. So hopefully
@@ -180,7 +179,7 @@ analysis. You may not be able to perform the exact analyses without the statisti
 to explain why the statistician performed each step to a labmate/your principal investigator. 
 
 
-Contributors
+##Contributors
 ====================
 
 * [Jeff Leek](http://biostat.jhsph.edu/~jleek/) - Wrote the initial version.
